@@ -1,0 +1,39 @@
+.mainPage {
+  margin-top: 2.5rem;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  flex-wrap: wrap;
+}
+
+.containerNavigationEList {
+  width: 45%;
+}
+.containerFormTotalMoney {
+  width: 80%;
+}
+
+@media only screen and (max-width: 1108px) {
+  .containerFormTotalMoney {
+    width: 100%;
+  }
+  .aside {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .mainPage {
+    justify-content: center;
+  }
+  .aside {
+    margin-right: 0px;
+    width: 100%;
+  }
+  .containerFormTotalMoney {
+    width: 100%;
+  }
+  .containerNavigationEList {
+    width: 100%;
+  }
+}

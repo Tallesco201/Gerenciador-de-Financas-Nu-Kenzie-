@@ -1,0 +1,22 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 88px;
+  width: 100vw;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+}
+.btn {
+  height: 40px;
+  padding: 15px;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.btn:hover {
+  transition-duration: 650ms;
+
+  background-color: black;
+  color: #ffffff;
+}
